@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Concentration_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qa0-RK-wnk">
+                                <rect key="frame" x="66" y="755" width="254" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="sxZ-lq-gNC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oh4-OS-J2B">
+                                <rect key="frame" x="66" y="157" width="90" height="161"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="touchcards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M8f-ET-AwO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5X-bm-vyx">
+                                <rect key="frame" x="215" y="418" width="105" height="161"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="105" id="itW-BE-Ikf"/>
+                                    <constraint firstAttribute="height" constant="161" id="m4m-Ug-baA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="touchcards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJM-VK-yGZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvd-2i-HJO">
+                                <rect key="frame" x="66" y="418" width="90" height="161"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="touchcards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LE3-mQ-Sa1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0a7-MA-nm6">
+                                <rect key="frame" x="215" y="157" width="105" height="161"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="161" id="yJ5-7v-4Gj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <action selector="touchcards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ULS-Hv-8cK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Z5X-bm-vyx" firstAttribute="top" secondItem="uvd-2i-HJO" secondAttribute="top" id="5Rh-A0-Zlg"/>
+                            <constraint firstItem="qa0-RK-wnk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="66" id="9yg-RP-2XM"/>
+                            <constraint firstItem="Z5X-bm-vyx" firstAttribute="leading" secondItem="uvd-2i-HJO" secondAttribute="trailing" constant="59" id="Bm3-Kz-5XJ"/>
+                            <constraint firstItem="0a7-MA-nm6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="113" id="F82-Bw-gyp"/>
+                            <constraint firstItem="qa0-RK-wnk" firstAttribute="leading" secondItem="uvd-2i-HJO" secondAttribute="leading" id="GJ7-wg-KM0"/>
+                            <constraint firstItem="0a7-MA-nm6" firstAttribute="leading" secondItem="Oh4-OS-J2B" secondAttribute="trailing" constant="59" id="IzJ-8T-XCq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qa0-RK-wnk" secondAttribute="trailing" constant="94" id="Q4b-EL-hV2"/>
+                            <constraint firstItem="Z5X-bm-vyx" firstAttribute="baseline" secondItem="uvd-2i-HJO" secondAttribute="firstBaseline" id="Rgf-VQ-jJK"/>
+                            <constraint firstItem="0a7-MA-nm6" firstAttribute="baseline" secondItem="Oh4-OS-J2B" secondAttribute="firstBaseline" id="T4m-KH-z60"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qa0-RK-wnk" secondAttribute="bottom" constant="31" id="UHY-et-P8x"/>
+                            <constraint firstItem="0a7-MA-nm6" firstAttribute="top" secondItem="Oh4-OS-J2B" secondAttribute="top" id="Ur2-cl-9b9"/>
+                            <constraint firstItem="Z5X-bm-vyx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="418" id="gi3-jk-SO3"/>
+                            <constraint firstItem="qa0-RK-wnk" firstAttribute="leading" secondItem="Oh4-OS-J2B" secondAttribute="leading" id="gvo-Jq-FUN"/>
+                            <constraint firstItem="qa0-RK-wnk" firstAttribute="trailing" secondItem="Z5X-bm-vyx" secondAttribute="trailing" id="lcN-gN-aTC"/>
+                            <constraint firstItem="qa0-RK-wnk" firstAttribute="trailing" secondItem="0a7-MA-nm6" secondAttribute="trailing" id="td8-qv-ty0"/>
+                            <constraint firstItem="Z5X-bm-vyx" firstAttribute="leading" secondItem="0a7-MA-nm6" secondAttribute="leading" id="vsb-2u-RAJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="countLabel" destination="qa0-RK-wnk" id="jn9-yp-WLQ"/>
+                        <outletCollection property="cardsButton" destination="Oh4-OS-J2B" collectionClass="NSMutableArray" id="yqh-8m-gKy"/>
+                        <outletCollection property="cardsButton" destination="0a7-MA-nm6" collectionClass="NSMutableArray" id="3zW-gU-ddM"/>
+                        <outletCollection property="cardsButton" destination="uvd-2i-HJO" collectionClass="NSMutableArray" id="N5g-n4-dgt"/>
+                        <outletCollection property="cardsButton" destination="Z5X-bm-vyx" collectionClass="NSMutableArray" id="Lkd-BK-cX4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+</document>
